@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    width: 99vw;
+    overflow-x: hidden;
+}
+
+header {
+    width: 99vw;
+    height: 84px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 4;
+    position: fixed;
+}
+
+.rightnav {}
+
+.centernav li {
+    display: inline-block;
+    margin-left: 12px;
+    padding: 9px 9px 9px 9px;
+}
+
+.centernav li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.rightnav button {
+    padding: 14px 27px 14px 27px;
+    color: white;
+    border-radius: 53px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(139deg 63% 51%), hsl(169deg 62% 47%));
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.LeftMain {
+
+    padding-left: 144px;
+}
+
+.LeftMain h1 {
+    font-size: 3rem;
+    color: hsl(233, 26%, 24%);
+    font-weight: 200;
+}
+
+.LeftMain p {
+    font-size: 17px;
+    width: 64%;
+    line-height: 27px;
+    margin-top: 22px;
+}
+
+.LeftMain button {
+    padding: 14px 27px 14px 27px;
+    color: white;
+    border-radius: 53px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(139deg 63% 51%), hsl(169deg 62% 47%));
+}
+
+.firstimg {
+    left: 54%;
+    width: 65%;
+    top: 2%;
+    position: absolute;
+}
+
+.secondimg {
+    z-index: 1;
+    width: 100%;
+    position: relative;
+    left: -1%;
+}
+
+.sectionOne {
+    height: 74vh;
+    width: 100%;
+    background-color: hsl(220, 16%, 96%);
+    padding: 75px 144px;
+}
+
+.title h1 {
+    font-size: 2rem;
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+}
+
+.title p {
+    font-size: 17px;
+    width: 46%;
+    line-height: 27px;
+    margin-top: 22px;
+}
+
+.box {
+    margin-left: 11px;
+    width: 21%;
+    height: 251px;
+    
+}
+
+.containerbox {
+    display: flex;
+    margin-top: 77px;
+
+}
+
+.containerbox h3 {
+    font-size: 19px;
+    font-weight: 400;
+    color: hsl(233, 26%, 24%);
+    margin-top: 23px;
+}
+
+.containerbox p {
+    font-size: 17px;
+    width: 99%;
+    line-height: 27px;
+    margin-top: 22px;
+   color: hsl(233, 8%, 62%);
+}
+
+.sectionTwo{
+    height: 95vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    padding: 75px 144px;
+}
+
+.thearticle {
+    margin-left: 11px;
+    width: 21%;
+    height: 496px;
+    margin-top: 43px;
+    height: 546px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.thearticle img {
+    overflow: hidden;
+    height: 43%;
+    width: 100%;
+}
+
+.thearticle h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: hsl(233, 26%, 24%);
+    margin-top: 23px;
+}
+
+
+.lastestArticles h3 {
+    font-size: 2rem;
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+}
+.thearticle p {
+    font-size: 17px;
+    width: 99%;
+    line-height: 23px;
+    margin-top: 22px;
+    color: hsl(233, 8%, 62%);
+}
+
+.thearticle h4 {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 28px;
+    color: hsl(233, 8%, 62%);
+}
+.ArticleBox {
+    display: flex;
+}
+
+.latestArticles{
+    font-size: 2rem;
+    color: hsl(233, 26%, 24%);
+    font-weight: 400;
+}
+
+footer {
+    height: 30vh;
+    background-color: hsl(233, 26%, 24%);
+    width: 100%;
+}
+
+.FooterContainer{
+    padding: 20px 144px 0 144px;
+    height: 89%;
+    width: 100%;
+    display: flex;
+}
+.logoAndIcons{
+    width: 207px;
+}
+
+.LinksOne {
+    width: 207px;
+}
+
+.LinksTwo{
+    width: 207px;
+}
+
+.FooterBtn{
+    width: 451px;
+}
+.Icons {
+    margin-top: 85px;
+}
+
+.Icons svg {
+    margin-left: 5px;
+}
+
+.link {
+    width: 207px;
+    padding-top: 21px;
+}
+
+.link li {
+    list-style-type: none;
+    
+}
+
+.link li a {
+    text-decoration: none;
+    color: white;
+    margin-top: 9px;
+    font-size: 15px;
+    display: block;
+    font-weight: 200;
+}
+
+
+
+.FooterBtn button {
+    padding: 14px 27px 14px 27px;
+    color: white;
+    margin-left: 67%;
+    border-radius: 53px;
+    margin-top: 22px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, hsl(139deg 63% 51%), hsl(169deg 62% 47%));
+}
+
+.FooterBtn p {
+    margin-left: 48%;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #8589a5;
+}
+
+@media only screen and (max-width: 372px) { 
+    header {
+        width: 146vw;
+        height: 84px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        z-index: 4;
+        position: fixed;
+    }
+
+    .centernav {
+        display: none;
+    }
+    .rightnav button {
+        padding: 14px 27px 14px 27px;
+        color: white;
+        border-radius: 53px;
+        cursor: pointer;
+        font-size: 14px;
+        border: none;
+        background-image: linear-gradient(to right, hsl(139deg 63% 51%), hsl(169deg 62% 47%));
+    }
+    .secondimg {
+        z-index: 1;
+        width: 94%;
+        position: relative;
+        left: 1%;
+    }
+    .firstimg {
+        left: -48%;
+        width: 221%;
+        top: 4%;
+        position: absolute;
+    }
+
+    main {
+        display: flex;
+        width: 149vw;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 31px;
+        flex-direction: column-reverse;
+        height: 249vh;
+    }
+    .LeftMain {
+        text-align: center;
+        display: flex;
+        padding-bottom: 6rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LeftMain button {
+        padding: 16px 40px 16px 40px;
+        color: white;
+        border-radius: 53px;
+        margin-top: 22px;
+        cursor: pointer;
+        font-size: 17px;
+        border: none;
+        background-image: linear-gradient(to right, hsl(139deg 63% 51%), hsl(169deg 62% 47%));
+    }
+    .sectionOne {
+        height: 248vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: hsl(220, 16%, 96%);
+        padding: 73px 86px;
+    }
+    .lastestArticles h3 {
+        font-size: 2rem;
+        color: hsl(233, 26%, 24%);
+        font-weight: 400;
+        text-align: center;
+    }
+    .title {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containerbox {
+        display: flex;
+        margin-top: 77px;
+        flex-direction: column;
+    }
+    .box {
+        margin-left: 11px;
+        width: 100%;
+        text-align: center;
+        height: 251px;
+    }
+
+    .LeftMain {
+        padding-left: 0;
+    }
+
+    .sectionTwo {
+        height: 474vh;
+        width: 100%;
+        background-color: hsl(0, 0%, 98%);
+        padding: 65px 83px;
+    }
+    .ArticleBox {
+        display: flex;
+        flex-direction: column;
+    }
+    .thearticle {
+        margin-left: 11px;
+        width: 100%;
+        margin-top: 43px;
+        height: 546px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .FooterContainer {
+        padding: 20px 144px 0 144px;
+        height: 93%;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+    }
+
+    footer {
+        height: 111vh;
+        background-color: hsl(233, 26%, 24%);
+        width: 146vw;
+    }
+
+    .logoAndIcons {
+        display: flex;
+        width: 207px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Icons {
+        margin-top: 85px;
+        text-align: center;
+    }
+
+    .FooterBtn button {
+        padding: 16px 40px 16px 40px;
+        color: white;
+        margin-left: 18px;
+        border-radius: 53px;
+        margin-top: 31px;
+        font-size: 17px;
+        cursor: pointer;
+        border: none;
+        background-image: linear-gradient(to right, hsl(139deg 63% 51%), hsl(169deg 62% 47%));
+    }
+
+    .link {
+        width: 207px;
+        padding-top: 16px;
+        text-align: center;
+    }
+
+    .link li a {
+        text-decoration: none;
+        color: white;
+        margin-top: 9px;
+        font-size: 20px;
+        display: block;
+        font-weight: 200;
+    }
+
+    .FooterBtn p {
+        margin-left: 2%;
+        margin-top: 30px;
+        font-size: 15px;
+        color: #8589a5;
+    }
+
+}
