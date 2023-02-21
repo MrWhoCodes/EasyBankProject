@@ -462,5 +462,9 @@ footer {
         font-size: 15px;
         color: #8589a5;
     }
+    body {
+        overflow-x hidden;
+    
+    }
 
 }
